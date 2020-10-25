@@ -1,3 +1,4 @@
+function refresh(){
 var num1= Math.floor((Math.random()*6)+1);
 var num2= Math.floor((Math.random()*6)+1);
 var randomImageSource1 = "images/dice" + num1 + ".png";
@@ -15,3 +16,6 @@ else if(num2>num1){
 else{
   document.querySelector("h1").innerHTML="Tie!!"
 }
+}
+window.onload= refresh();
+document.querySelector("button").addEventListener("click", refresh);
