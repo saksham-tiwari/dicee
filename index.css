@@ -5,6 +5,12 @@ h1{
   font-size: 4rem;
   font-family: 'Kaushan Script', cursive;
 }
+hr{
+  height:0;
+  width: 10%;
+  margin-top: 2rem;
+  border-top: 8px dotted #ce6262;
+}
 .table-text{
   font-size: 2.5rem;
   font-family: 'Cookie', cursive;
@@ -24,6 +30,18 @@ td{
 img{
   width: 180px;
   height: 180px;
+}
+.btn-info{
+  width: 15%;
+  margin-left: 42.5%;
+  margin-right: 42.5%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background-color: #af2d2d;
+  color: #214252;
+  font-size: 1.25rem;
+  font-family: 'Kaushan Script', cursive;
 }
 .footer{
   text-align: center;
