@@ -1,0 +1,31 @@
+body{
+  background-color: #214252;
+}
+h1{
+  font-size: 4rem;
+  font-family: 'Kaushan Script', cursive;
+}
+.table-text{
+  font-size: 2.5rem;
+  font-family: 'Cookie', cursive;
+}
+.heading{
+  color : #f05454;
+  text-align: center;
+}
+.main-table{
+  padding : 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+td{
+  padding : 20px;
+}
+img{
+  width: 180px;
+  height: 180px;
+}
+.footer{
+  text-align: center;
+  color: #ce6262;
+}
